@@ -9,9 +9,7 @@
             <name>Sergey Alekseev</name>
             <email>sergey@alekseev.bz</email>
             <roles>
-                <role>
-                    maintainer
-                </role>
+                <role>maintainer</role>
             </roles>
             <timezone>UTC+03:00</timezone>
         </developer>

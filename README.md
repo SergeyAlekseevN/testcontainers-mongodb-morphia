@@ -1,2 +1,2 @@
 # testcontainers-mongodb-morphia
-TestContainers with MogdoDB and Morphia
+TestContainers with MongoDB and Morphia

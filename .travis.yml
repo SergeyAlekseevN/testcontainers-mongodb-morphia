@@ -15,4 +15,6 @@ cache:
   directories:
     - $HOME/.m2
 
-install: mvn verify -Dgpg.skip=true
+install: mvn install -B -V
+after_success:
+  - mvn clean test jacoco:report coveralls:report -Dcoveralls.token=$COVERALLS_TOKEN

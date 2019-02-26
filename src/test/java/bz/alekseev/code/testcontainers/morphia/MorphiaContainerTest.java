@@ -19,13 +19,13 @@ class MorphiaContainerTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(MorphiaContainerTest.class);
 
     @Container
-    public static final MorphiaContainer morphia = new MorphiaContainer("mongo:3.4")
+    public static final MorphiaContainer morphia = new MorphiaContainer("mongo:3.4.19")
             .withLogConsumer(new Slf4jLogConsumer(LOGGER));
 
     @Test
     void checkVersionMongoDbTest() {
         String version = morphia.getDB().command("buildInfo").getString("version");
-        assertEquals("3.4.18", version);
+        assertEquals("3.4.19", version);
     }
 
     @Test

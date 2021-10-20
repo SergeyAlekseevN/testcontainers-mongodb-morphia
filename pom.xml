@@ -22,7 +22,7 @@
         <java.version>1.8</java.version>
         <maven.version>3.0.0</maven.version>
         <junit.version>5.4.0</junit.version>
-        <testcontainers.version>1.12.1</testcontainers.version>
+        <testcontainers.version>1.16.1</testcontainers.version>
         <morphia.version>1.4.0</morphia.version>
     </properties>
     <dependencies>
